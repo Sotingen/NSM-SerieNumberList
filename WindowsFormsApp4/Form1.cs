@@ -21,9 +21,9 @@ namespace WindowsFormsApp4
         String projectFill = @"SELECT DISTINCT Project FROM InvList";
         String unitCond = "Unit";
         string cond = "";
-        String project = "%";
-        String customer = "%";
-        String unit = "%";
+        String project = "";
+        String customer = "";
+        String unit = "";
 
         public Form1()
         {
