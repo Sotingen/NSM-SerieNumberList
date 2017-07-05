@@ -13,6 +13,7 @@ namespace WindowsFormsApp4
 {
     public partial class Form1 : Form
     {
+        //Fix this!
         String cons;
         String unitUpdate;
         String unitFill = @"SELECT DISTINCT Unit FROM InvList";
@@ -416,6 +417,11 @@ namespace WindowsFormsApp4
                 }
             }
             return unitSql;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
