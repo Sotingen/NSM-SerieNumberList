@@ -14,6 +14,7 @@ namespace WindowsFormsApp4
     public partial class Form1 : Form
     {
         //Fix this!
+        //Is it fixed?!??!?
         String cons;
         String unitUpdate;
         String unitFill = @"SELECT DISTINCT Unit FROM InvList";
